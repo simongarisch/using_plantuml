@@ -1,0 +1,10 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{A|\l|}", shape="record"];
+"1" [label="{B|\l|}", shape="record"];
+"2" [label="{C|\l|}", shape="record"];
+"3" [label="{D|\l|}", shape="record"];
+"1" -> "0" [arrowhead="empty", arrowtail="none"];
+"2" -> "1" [arrowhead="empty", arrowtail="none"];
+}
